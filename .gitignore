@@ -1,0 +1,16 @@
+# Secretos: NUNCA subir
+.env
+.env.*
+!.env.example
+**/.env
+**/.env.*
+!**/.env.example
+
+# Dependencias y basura
+node_modules/
+.DS_Store
+Thumbs.db
+
+# Carpetas locales con tus fotos originales (por las dudas)
+fotos-originales/
+mis-fotos/
